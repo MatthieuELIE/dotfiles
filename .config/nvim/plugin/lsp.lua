@@ -84,6 +84,13 @@ vim.lsp.config('jdtls', {
     root_markers = { '.git', 'pom.xml' },
 })
 
+vim.lsp.config('rumdl', {
+    capabilities = capabilities,
+    cmd = { 'rumdl', 'server' },
+    filetypes = { 'markdown' },
+    root_markers = { '.git', '.rumdl.toml' },
+})
+
 vim.lsp.enable({
     'lua_ls',
     'rust_analyzer',
@@ -91,6 +98,7 @@ vim.lsp.enable({
     'ts_ls',
     'cssls',
     'jdtls',
+    'rumdl',
 })
 
 vim.api.nvim_create_autocmd('LspAttach', {

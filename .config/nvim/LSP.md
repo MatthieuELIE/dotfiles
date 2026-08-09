@@ -12,7 +12,8 @@ Update this file whenever a server is added, removed, or its install method chan
 
 - Install: `rustup component add rust-analyzer`
 - Update: `rustup update stable`
-- Note: rust-analyzer is tied to the active rustup toolchain, it has no independent update command. `rustup check` shows if a newer stable is available.
+- Note: rust-analyzer is tied to the active rustup toolchain,
+  it has no independent update command. `rustup check` shows if a newer stable is available.
 
 ## vue_ls — @vue/language-server
 
@@ -23,7 +24,8 @@ Update this file whenever a server is added, removed, or its install method chan
 
 - Install: `npm install -g typescript typescript-language-server`
 - Update: `npm update -g typescript typescript-language-server`
-- Note: if this was installed against a different Node than your active `npm` (e.g. Homebrew's Node vs fnm/nvm), point at that npm explicitly, e.g. `/opt/homebrew/bin/npm update -g typescript-language-server`.
+- Note: if this was installed against a different Node than your active `npm` (e.g. Homebrew's Node vs fnm/nvm),
+  point at that npm explicitly, e.g. `/opt/homebrew/bin/npm update -g typescript-language-server`.
 
 ## cssls — vscode-langservers-extracted
 

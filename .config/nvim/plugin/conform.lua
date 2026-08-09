@@ -7,7 +7,7 @@ require('conform').setup({
         css = { 'prettier' },
         javascript = { 'prettier' },
         lua = { 'stylua' },
-        markdown = { 'prettier' },
+        markdown = { 'rumdl' },
         rust = { 'rustfmt' },
         scss = { 'prettier' },
         typescript = { 'prettier' },
