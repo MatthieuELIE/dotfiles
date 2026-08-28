@@ -11,5 +11,5 @@ require('vault').setup({
     split = 'edit',
     daily_path = vault .. '/01_DAILY_NOTES',
     todos_path = vault .. '/05_PROJECTS',
-    templates_path = vault .. '/03_RESOURCES/Templates',
+    templates_path = vault .. '/02_RESOURCES/Templates',
 })

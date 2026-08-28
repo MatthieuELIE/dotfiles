@@ -6,6 +6,7 @@ require('conform').setup({
     formatters_by_ft = {
         css = { 'prettier' },
         javascript = { 'prettier' },
+        json = { 'prettier' },
         lua = { 'stylua' },
         markdown = { 'rumdl' },
         rust = { 'rustfmt' },
