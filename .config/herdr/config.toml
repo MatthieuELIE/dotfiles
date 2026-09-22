@@ -12,3 +12,9 @@ next_workspace = "prefix+j"
 
 [experimental]
 pane_history = true
+
+[ui.toast]
+delivery = "terminal"
+
+[ui.sound]
+enabled = true
