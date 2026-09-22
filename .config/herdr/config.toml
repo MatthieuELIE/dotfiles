@@ -12,3 +12,20 @@ next_workspace = "prefix+j"
 
 [experimental]
 pane_history = true
+
+[ui.toast]
+delivery = "herdr"
+
+[ui.sound]
+enabled = true
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+[[keys.command]]
+key = "prefix+t"
+type = "popup"
+command = "todo"
+description = "todo list"
+width = "80%"
+height = "75%"
