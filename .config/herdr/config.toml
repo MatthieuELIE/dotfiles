@@ -22,6 +22,16 @@ enabled = true
 [ui]
 show_agent_labels_on_pane_borders = true
 
+sidebar_start_collapsed = true
+sidebar_collapsed_mode = "hidden"
+
+tab_bar_right_separator = " > "
+tab_bar_right = [
+  { type = "text", text = " Mac de Matthieu" },
+  { type = "datetime", format = " %H:%M" },
+  { type = "command", command = "~/.config/herdr/workspace.sh", interval_seconds = 5, timeout_seconds = 2 },
+]
+
 [[keys.command]]
 key = "prefix+t"
 type = "popup"
