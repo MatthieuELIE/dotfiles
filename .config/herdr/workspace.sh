@@ -7,4 +7,4 @@ name=$("${HERDR_BIN_PATH:-herdr}" workspace get "$HERDR_ACTIVE_WORKSPACE_ID" 2>/
 
 [ -n "$name" ] || exit 0
 
-printf ' %s  ' "$name"
+printf ' %s⠀⠀' "$name"
