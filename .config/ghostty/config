@@ -1,5 +1,5 @@
 # Fonts
-font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "JetBrainsMono Nerd Font"
 font-feature = -feat
 font-size = 16
 font-thicken = true
@@ -17,7 +17,7 @@ mouse-hide-while-typing = true
 
 # Window
 title = " "
-window-title-font-family = "JetBrainsMono Nerd Font Mono"
+window-title-font-family = "JetBrainsMono Nerd Font"
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
